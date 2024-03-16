@@ -1,0 +1,108 @@
+[
+    {
+        "recipe_image": "https://i.ibb.co/ygb4Hcb/Rectangle-20170.jpg",
+        "recipe_id": 1,
+        "recipe_name": "Pan-Seared Chicken with Basil",
+        "short_description": "A quick and flavorful dish perfect for a weeknight meal.",
+        "ingredients": [
+            "550 g boneless, skinless chicken breasts",
+            "120 ml low-sodium soy sauce",
+            "2 tablespoons olive oil",
+            "1 tablespoon honey",
+            "1 clove garlic, minced",
+            "1 teaspoon grated ginger",
+            "200 g fresh basil leaves",
+            "Salt and freshly ground black pepper to taste"
+        ],
+        "preparing_time": 30,
+        "calories": 320
+    },
+    {
+        "recipe_image": "https://i.ibb.co/fSxgX2X/Rectangle-20170-1.jpg",
+        "recipe_id": 2,
+        "recipe_name": "Creamy Tomato Pasta",
+        "short_description": "A comforting and delicious pasta dish with a rich tomato sauce.",
+        "ingredients": [
+            "400 g dried pasta (penne, rigatoni, etc.)",
+            "1 tablespoon olive oil",
+            "1 clove garlic, minced",
+            "1 (400g) can crushed tomatoes",
+            "1/2 cup heavy cream",
+            "1/4 cup grated Parmesan cheese",
+            "Fresh basil leaves, for garnish (optional)"
+        ],
+        "preparing_time": 20,
+        "calories": 450
+    },
+    {
+        "recipe_image": "https://i.ibb.co/4TVpwP7/pexels-jer-chung-2059151.jpg",
+        "recipe_id": 3,
+        "recipe_name": "Cheesy Broccoli Soup",
+        "short_description": "A warm and satisfying soup perfect for a cold day.",
+        "ingredients": [
+            "1 tablespoon olive oil",
+            "1 onion, chopped",
+            "2 cloves garlic, minced",
+            "4 cups chicken broth",
+            "1 head broccoli, cut into florets",
+            "1 cup shredded cheddar cheese",
+            "1/2 cup milk",
+            "Salt and freshly ground black pepper to taste"
+        ],
+        "preparing_time": 30,
+        "calories": 250
+    },
+    {
+        "recipe_image": "https://i.ibb.co/rvPqFf0/pexels-engin-akyurt-2673353.jpg",
+        "recipe_id": 4,
+        "recipe_name": "Spicy Black Bean Burgers",
+        "short_description": "A delicious and healthy vegetarian burger option.",
+        "ingredients": [
+            "1 (15 oz) can black beans, rinsed and drained",
+            "1/2 cup cooked brown rice",
+            "1/4 cup chopped red onion",
+            "1 tablespoon chopped fresh cilantro",
+            "1 jalapeno pepper, seeded and minced (optional)",
+            "1/2 teaspoon chili powder",
+            "1/4 teaspoon cumin",
+            "Salt and freshly ground black pepper to taste",
+            "Hamburger buns, for serving"
+        ],
+        "preparing_time": 20,
+        "calories": 300
+    },
+    {
+        "recipe_image": "https://i.ibb.co/pWDv7XB/pexels-chan-walrus-958546.jpg",
+        "recipe_id": 5,
+        "recipe_name": "Lemon Garlic Salmon",
+        "short_description": "A simple yet elegant dish with fresh lemon and garlic flavors.",
+        "ingredients": [
+            "2 salmon fillets",
+            "1 tablespoon olive oil",
+            "1 lemon, sliced",
+            "2 cloves garlic, minced",
+            "Fresh parsley, for garnish (optional)"
+        ],
+        "preparing_time": 15,
+        "calories": 400
+    },
+    {
+        "recipe_image": "https://i.ibb.co/QMtfmRw/pexels-lina-kivaka-1813504.jpg",
+        "recipe_id": 6,
+        "recipe_name": "Chocolate Chip Cookies",
+        "short_description": "A classic and delicious homemade cookie recipe.",
+        "ingredients": [
+            "1 cup (2 sticks) unsalted butter, softened",
+            "1 cup granulated sugar",
+            "1 cup packed light brown sugar",
+            "2 large eggs",
+            "2 teaspoons pure vanilla extract",
+            "2 1/4 cups all-purpose flour",
+            "1 teaspoon baking soda",
+            "1 teaspoon salt",
+            "2 cups semisweet"
+        ],
+        "preparing_time": 15,
+        "calories": 400
+    }
+]
