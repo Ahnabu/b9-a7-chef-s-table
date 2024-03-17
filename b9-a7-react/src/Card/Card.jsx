@@ -23,7 +23,7 @@ const Card = ({ card, handleCook }) => {
                     <hr />
                     <div>
                         <h3>Ingredients:{ingredients.length}</h3>
-                        <ul>
+                        <ul className='list-disc'>
                             {ingredients.map((ingredient, index) => (
                                 <li key={index}>{ingredient}</li>
                             )).slice(0, 3) }

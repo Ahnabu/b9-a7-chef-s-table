@@ -60,7 +60,8 @@ const Sidebar = ({ cook, handleCooking, cooking, time, calories }) => {
                     }
                     <hr />
                     <div className='flex justify-around'>
-                        <h3>Total time:{ time}</h3>
+                        <h3>   </h3>
+                        <h3>Total Time:{ time}</h3>
                         <h3>Total Calories:{calories}</h3>
                     </div>
                     
