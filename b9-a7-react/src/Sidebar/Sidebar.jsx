@@ -7,7 +7,7 @@ const Sidebar = ({ cook, handleCooking, cooking, time, calories }) => {
     
 
     return (
-        <div className="card w-[35vw] text-center shadow-xl border border-[#969696] mt-8">
+        <div className="card w-full lg:w-[35vw] text-center shadow-xl border border-[#969696] mt-8">
             <div>
                 <h2 className="text-[#282828] font-bold text-3xl mt-9">Want to cook:{cook.length}</h2>
                 <hr />
@@ -46,7 +46,7 @@ const Sidebar = ({ cook, handleCooking, cooking, time, calories }) => {
                     {
                         cooking.map((item, index) => (
                             
-                            <ul key={index} className='flex justify-between px-4 mt-6'>
+                            <ul key={index} className='flex justify-between px-4 mt-6 mb-4'>
                                 <p>{index + 1}</p>
                                 <li> <p>{item.recipe_name}</p></li>
                                 <li><p>{item.preparing_time} Minutes</p></li>
@@ -59,7 +59,7 @@ const Sidebar = ({ cook, handleCooking, cooking, time, calories }) => {
 
                     }
                     <hr />
-                    <div className='flex justify-around'>
+                    <div className='flex justify-around mt-6 mb-4'>
                         <h3>   </h3>
                         <h3>Total Time:{ time}</h3>
                         <h3>Total Calories:{calories}</h3>

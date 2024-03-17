@@ -55,8 +55,8 @@ const Cards = () => {
     }
 
     return (
-        <div className="flex gap-7">
-        <div className="grid lg:grid-cols-2 gap-4 mt-8 ">
+        <div className="lg:flex gap-7">
+        <div className="grid lg:grid-cols-2 grid-cols-1 gap-4 mt-8 ">
 
         
         {

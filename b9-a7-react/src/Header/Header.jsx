@@ -72,11 +72,11 @@ const Header = () => {
                 </div>
 
 
-                <div id='banner' className='w-[380px] lg:w-[1200px] lg:h-[600px] mx-auto text-center lg:pt-40 pt-20 bg-right' >
+                <div id='banner' className='w-[380px] lg:w-[1200px] lg:h-[600px] mx-auto text-center lg:pt-40 pt-10 bg-right' >
                     <h1 className='text-5xl font-extrabold text-white'>
                         Learn knife skills and whip <br /> up a delicious meal.</h1>
-                    <p className='text-white mt-14'>The aroma of spices filled the air as we chopped vegetables, following the chef's instructions. Laughter bubbled up as we learned <br /> knife skills and teamed up to create a delicious meal.</p>
-                    <div className='mt-14'>
+                    <p className='text-white mt-7 lg:mt-14'>The aroma of spices filled the air as we chopped vegetables, following the chef's instructions. Laughter bubbled up as we learned <br /> knife skills and teamed up to create a delicious meal.</p>
+                    <div className='lg:mt-14 mt-7 mb-6'>
                         <button className='btn bg-[#0BE58A] text-[#150B2B] font-bold border-0 lg:mr-20 rounded-full'>Explore Now</button>
                         <button className='btn btn-ghost text-white border-white rounded-full'>Our Feedback</button>
                     </div>
