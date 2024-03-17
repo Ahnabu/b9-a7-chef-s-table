@@ -1,16 +1,19 @@
-
+import PropTypes from 'prop-types';
 import { FaRegClock } from "react-icons/fa";
 import { GoFlame } from "react-icons/go";
-const Card = ({ card }) => {
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
+const Card = ({ card, handleCook }) => {
    
     
     const {recipe_image, calories, preparing_time, ingredients, short_description, recipe_name} = card
-    console.log(card.length)
+ 
 
     return (
             
         <div >
-            <div className="card w-96 bg-base-100 shadow-xl border-[#878787] border">
+            <div className="card w-96 bg-base-100 shadow-xl border-[#bebebe] border">
                 <figure className="px-5 pt-5">
                     <img src={recipe_image} className="rounded-xl w-[330px] h-[200px] object-cover" />
                 </figure>
@@ -23,7 +26,7 @@ const Card = ({ card }) => {
                         <ul>
                             {ingredients.map((ingredient, index) => (
                                 <li key={index}>{ingredient}</li>
-                            ))}
+                            )).slice(0, 3) }
                         </ul>
 
                     </div>
@@ -40,14 +43,28 @@ const Card = ({ card }) => {
                         
                     </div>
                     <div className="card-actions">
-                        <button className="btn bg-[#0BE58A] text-[#150B2B] rounded-full">Want to cook</button>
+                        <button className="btn bg-[#0BE58A] text-[#150B2B] rounded-full" onClick={() => handleCook(card)}>Want to cook
+                       <ToastContainer/> </button>
                     </div>
                 </div>
             </div>
+           
         </div>
             
        
     );
 };
+Card.propTypes = {
+    card: PropTypes.shape({
+        recipe_image: PropTypes.string,
+        calories: PropTypes.number,
+        preparing_time: PropTypes.number,
+        ingredients: PropTypes.array,
+        short_description: PropTypes.string,
+        recipe_name: PropTypes.string,
+        recipe_id: PropTypes.number,
+        
+    }),
+}
 
 export default Card;
