@@ -1,4 +1,5 @@
 import { FaRegUserCircle } from "react-icons/fa";
+import { FaSearch } from "react-icons/fa";
 
 
 const Header = () => {
@@ -45,7 +46,10 @@ const Header = () => {
                     </div>
                     <div className="flex-none gap-2">
                         <div className="form-control">
-                            <input type="text" placeholder=" Search" className="input input-bordered w-24 md:w-auto" />
+                            <span className="text-opacity-55 relative top-8 pl-4">{<FaSearch />}</span>
+                            <input type="text" placeholder=" Search" className="input input-bordered w-24 md:w-auto px-8">
+                            </input>
+                            
                         </div>
                         <div className="dropdown dropdown-end">
                             <div tabIndex="0" role="button" className="btn btn-ghost btn-circle avatar">

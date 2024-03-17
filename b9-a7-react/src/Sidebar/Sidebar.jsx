@@ -74,6 +74,15 @@ Sidebar.propTypes = {
         calories: PropTypes.number,
         preparing_time: PropTypes.number,
         recipe_name: PropTypes.string,
+        map: PropTypes.func,
+        length: PropTypes.number,
     }),
+    length: PropTypes.number,
+    handleCooking: PropTypes.func,
+    cooking: PropTypes.array,
+    time: PropTypes.number,
+    calories: PropTypes.number,
+    
+
 };
 export default Sidebar;

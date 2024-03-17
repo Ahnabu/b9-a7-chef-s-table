@@ -65,6 +65,7 @@ Card.propTypes = {
         recipe_id: PropTypes.number,
         
     }),
+    handleCook: PropTypes.func
 }
 
 export default Card;

@@ -4,6 +4,7 @@ import Sidebar from "../Sidebar/Sidebar";
 import {  toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
+
 const Cards = () => {
     const [cards, setCards] = useState([])
     useEffect(
@@ -66,7 +67,7 @@ const Cards = () => {
             </div>
             <div>
                 <Sidebar key={cook.recipe_id} cook={cook} handleCooking={handleCooking} cooking={cooking}
-                    time={time} calories={calories}></Sidebar>
+                    time={time} calories={calories}></Sidebar>              
             </div>
             
         </div>
