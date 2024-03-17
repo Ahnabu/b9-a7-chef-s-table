@@ -1,20 +1,19 @@
+import React from 'react';
 import Card from "../Card/Card";
 import { useEffect, useState } from 'react';
 import Sidebar from "../Sidebar/Sidebar";
-import {  toast } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
+import toast, { Toaster } from 'react-hot-toast';
+
+
 
 
 const Cards = () => {
     const [cards, setCards] = useState([])
     useEffect(
         () => {
-            fetch('../public/data.json')
+            fetch('/data.json')
                 .then(res => res.json())
-                .then(data => {
-                    
-                    setCards(data)
-                })
+                .then(data => setCards(data))
         }, []
     )
     const [cook, setCook] = useState([])
@@ -25,10 +24,15 @@ const Cards = () => {
 
         if (!isExist) {
             setCook([...cook, crd])
+           
             
         } else {
-            toast('already exists')
-            
+            toast("Already exist", {
+                type: "error", // Specify the type (success, info, warning, error)
+                position: "top-right", // Position (top-left, top-center, etc.)
+                autoClose: 5000, // Auto close in milliseconds
+                hideProgressBar: false, // Hide the progress bar
+            });
         }
         
 
@@ -63,7 +67,8 @@ const Cards = () => {
             cards.map(card => {
                 return <Card key={card.recipe_id} card={card} handleCook={handleCook} />
             })
-        }
+                }
+                
             </div>
             <div>
                 <Sidebar key={cook.recipe_id} cook={cook} handleCooking={handleCooking} cooking={cooking}

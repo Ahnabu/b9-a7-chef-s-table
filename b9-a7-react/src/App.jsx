@@ -3,6 +3,7 @@ import './App.css'
 
 import Cards from './Cards/Cards';
 import Header from './Header/Header';
+import toast, { Toaster } from 'react-hot-toast';
 
 
 
@@ -26,7 +27,7 @@ function App() {
         <Cards></Cards>
         
       </div>
-      
+      <Toaster></Toaster>
     </>
   )
 }

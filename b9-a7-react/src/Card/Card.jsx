@@ -1,8 +1,8 @@
 import PropTypes from 'prop-types';
 import { FaRegClock } from "react-icons/fa";
 import { GoFlame } from "react-icons/go";
-import { ToastContainer } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
+
+
 
 const Card = ({ card, handleCook }) => {
    
@@ -44,7 +44,7 @@ const Card = ({ card, handleCook }) => {
                     </div>
                     <div className="card-actions">
                         <button className="btn bg-[#0BE58A] text-[#150B2B] rounded-full" onClick={() => handleCook(card)}>Want to cook
-                       <ToastContainer/> </button>
+                       </button>
                     </div>
                 </div>
             </div>
